@@ -1,0 +1,45 @@
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 800px;
+    width: 100%;
+
+    .todo-form {
+        border: 1px solid black;
+        padding: 8px;
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        label {
+            text-align: left;
+        }
+        input {
+            padding: 4px;
+        }
+        button {
+            padding: 4px 8px;
+            width: 50%;
+            align-self: flex-end;
+        }
+    }
+
+    .todo-list-title {
+
+    }
+    .todo-list {
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .todo-item {
+
+    }
+
+}
